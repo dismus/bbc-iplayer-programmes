@@ -9,6 +9,5 @@ The iplayer page has higher resolution video and is easier to discover other pro
 
 ### Installation
 
-Installing is simple. Simply drag [BBC iplayer-programmes][1] link to your bookmarks bar or right click and choose *'Bookmark This Link'*
+Installing is simple. Simply drag <a href="javascript:var%20m=/http:\/\/(www.bbc.co.uk\/)?(iplayer\/episode|programmes)\/([0-9a-z]{8})/.exec(location.href);if(m[2]=='iplayer/episode'){location.href='http://www.bbc.co.uk/programmes/'+m[3];}if(m[2]=='programmes'){location.href='http://www.bbc.co.uk/iplayer/episode/'+m[3];}" title="BBC iplayer-programmes switcher">BBC iplayer-programmes</a> link to your bookmarks bar or right click and choose *'Bookmark This Link'*
 
-[1]: javascript:var%20m=/http:\/\/(www.bbc.co.uk\/)?(iplayer\/episode|programmes)\/([0-9a-z]{8})/.exec(location.href);if(m[2]=='iplayer/episode'){location.href='http://www.bbc.co.uk/programmes/'+m[3];}if(m[2]=='programmes'){location.href='http://www.bbc.co.uk/iplayer/episode/'+m[3];} "BBC iplayer-programmes switcher"
