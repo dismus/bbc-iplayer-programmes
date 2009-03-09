@@ -1,0 +1,1 @@
+javascript:var%20m=/http:\/\/(www.bbc.co.uk\/)?(iplayer\/episode|programmes)\/([0-9a-z]{8})/.exec(location.href);if(m[2]=='iplayer/episode'){location.href='http://www.bbc.co.uk/programmes/'+m[3];}if(m[2]=='programmes'){location.href='http://www.bbc.co.uk/iplayer/episode/'+m[3];}
